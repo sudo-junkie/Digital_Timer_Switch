@@ -469,6 +469,7 @@
     )
   )
 
+
   (junction (at 63.5 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 04d85171-9648-4d04-be00-b9b393af96b8)
   )
@@ -933,7 +934,7 @@
   (symbol (lib_id "Device:R_Small") (at 72.39 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ea1e7ff-cdb6-4351-bc19-5b128003ebd9)
-    (property "Reference" "R404" (at 74.93 97.155 0)
+    (property "Reference" "R401" (at 74.93 97.155 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100R" (at 74.93 99.695 0)
@@ -965,7 +966,7 @@
     (instances
       (project "Digital_Timer_Switch"
         (path "/98b51aac-404f-4a0d-b314-bd3823594ee3/ef1ab763-c83c-4112-b155-97ec3ec1921c"
-          (reference "R404") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
       (project "Controller"
